@@ -1,0 +1,85 @@
+<svg width="100%" viewBox="0 0 680 500" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+<title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">PyrovaCoin Logo</title>
+<desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">PyrovaCoin PYR cryptocurrency coin logo with fire design</desc>
+
+<defs>
+  <radialGradient id="coinGrad" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#FFD700"/>
+    <stop offset="40%" stop-color="#FF8C00"/>
+    <stop offset="100%" stop-color="#CC4400"/>
+  </radialGradient>
+  <radialGradient id="coinInner" cx="45%" cy="40%" r="55%">
+    <stop offset="0%" stop-color="#FFF0A0"/>
+    <stop offset="50%" stop-color="#FFB800"/>
+    <stop offset="100%" stop-color="#FF6000"/>
+  </radialGradient>
+  <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#FF4500" stop-opacity="0.5"/>
+    <stop offset="100%" stop-color="#FF4500" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="softShadow">
+    <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#FF4500" flood-opacity="0.5"/>
+  </filter>
+</defs>
+
+<!-- Glow background -->
+<ellipse cx="340" cy="250" rx="170" ry="170" fill="url(#glowGrad)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Coin outer ring (3D edge effect) -->
+<circle cx="340" cy="250" r="140" fill="#8B3A00" style="fill:rgb(139, 58, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="340" cy="246" r="140" fill="#AA4500" style="fill:rgb(170, 69, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="340" cy="242" r="140" fill="#CC5500" style="fill:rgb(204, 85, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Main coin face -->
+<circle cx="340" cy="240" r="136" fill="url(#coinGrad)" filter="url(#softShadow)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Inner circle -->
+<circle cx="340" cy="240" r="118" fill="url(#coinInner)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="340" cy="240" r="116" fill="none" stroke="#FFD700" stroke-width="2" opacity="0.6" style="fill:none;stroke:rgb(255, 215, 0);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Rim detail dots -->
+<circle cx="340" cy="126" r="4" fill="#FFD700" opacity="0.7" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="340" cy="354" r="4" fill="#FFD700" opacity="0.7" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="226" cy="240" r="4" fill="#FFD700" opacity="0.7" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="454" cy="240" r="4" fill="#FFD700" opacity="0.7" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="258" cy="148" r="4" fill="#FFD700" opacity="0.5" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="422" cy="148" r="4" fill="#FFD700" opacity="0.5" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="258" cy="332" r="4" fill="#FFD700" opacity="0.5" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="422" cy="332" r="4" fill="#FFD700" opacity="0.5" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Fire shape on coin -->
+<!-- Main flame -->
+<path d="M340 175 &#10;         C340 175, 320 190, 315 210&#10;         C310 225, 318 228, 315 240&#10;         C312 252, 300 258, 302 272&#10;         C304 290, 320 298, 340 298&#10;         C360 298, 376 290, 378 272&#10;         C380 258, 368 252, 365 240&#10;         C362 228, 370 225, 365 210&#10;         C360 190, 340 175, 340 175Z" fill="#FF2200" opacity="0.95" style="fill:rgb(255, 34, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.95;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Middle flame -->
+<path d="M340 188&#10;         C340 188, 325 202, 322 218&#10;         C319 230, 327 234, 325 244&#10;         C323 254, 315 260, 317 271&#10;         C319 283, 330 290, 340 290&#10;         C350 290, 361 283, 363 271&#10;         C365 260, 357 254, 355 244&#10;         C353 234, 361 230, 358 218&#10;         C355 202, 340 188, 340 188Z" fill="#FF6600" opacity="0.9" style="fill:rgb(255, 102, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.9;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Inner bright flame -->
+<path d="M340 205&#10;         C340 205, 330 215, 328 226&#10;         C326 234, 332 237, 331 245&#10;         C330 252, 324 256, 326 264&#10;         C328 272, 335 277, 340 277&#10;         C345 277, 352 272, 354 264&#10;         C356 256, 350 252, 349 245&#10;         C348 237, 354 234, 352 226&#10;         C350 215, 340 205, 340 205Z" fill="#FFB800" opacity="0.9" style="fill:rgb(255, 184, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.9;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Core flame glow -->
+<path d="M340 222&#10;         C338 228, 334 232, 334 238&#10;         C334 244, 338 247, 340 250&#10;         C342 247, 346 244, 346 238&#10;         C346 232, 342 228, 340 222Z" fill="#FFFFFF" opacity="0.8" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.8;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- "PYR" text on coin -->
+<text x="340" y="325" font-family="'Arial Black', sans-serif" font-size="22" font-weight="900" fill="#7A2800" text-anchor="middle" letter-spacing="4" style="fill:rgb(122, 40, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Black&quot;, sans-serif;font-size:22px;font-weight:900;text-anchor:middle;dominant-baseline:auto">PYR</text>
+
+<!-- Highlight on coin (shine effect) -->
+<ellipse cx="300" cy="195" rx="35" ry="20" fill="white" opacity="0.15" transform="rotate(-20, 300, 195)" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.15;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Small sparkles around coin -->
+<polygon points="340,98 343,108 353,108 345,114 348,124 340,118 332,124 335,114 327,108 337,108" fill="#FFD700" opacity="0.8" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.8;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<polygon points="200,180 202,187 209,187 203,191 205,198 200,194 195,198 197,191 191,187 198,187" fill="#FF8C00" opacity="0.7" style="fill:rgb(255, 140, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<polygon points="480,180 482,187 489,187 483,191 485,198 480,194 475,198 477,191 471,187 478,187" fill="#FF8C00" opacity="0.7" style="fill:rgb(255, 140, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<polygon points="220,310 222,317 229,317 223,321 225,328 220,324 215,328 217,321 211,317 218,317" fill="#FFD700" opacity="0.6" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<polygon points="460,310 462,317 469,317 463,321 465,328 460,324 455,328 457,321 451,317 458,317" fill="#FFD700" opacity="0.6" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Coin name below -->
+<text x="340" y="430" font-family="'Arial Black', sans-serif" font-size="32" font-weight="900" fill="#FF4500" text-anchor="middle" letter-spacing="3" style="fill:rgb(255, 69, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Black&quot;, sans-serif;font-size:32px;font-weight:900;text-anchor:middle;dominant-baseline:auto">PYROVACOIN</text>
+
+<text x="340" y="465" font-family="Arial, sans-serif" font-size="16" fill="#FF8C00" text-anchor="middle" letter-spacing="6" style="fill:rgb(255, 140, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:16px;font-weight:400;text-anchor:middle;dominant-baseline:auto">IGNITE THE FUTURE</text>
+
+</svg>
