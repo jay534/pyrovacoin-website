@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PyrovaCoin (PYR) Whitepaper</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Grotesk:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #050505;
+            --text-light: #F0F0F0;
+            --accent-orange: #FF4500;
+            --accent-gold: #FFD700;
+        }
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            font-family: 'Space Grotesk', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(20, 20, 20, 0.8);
+            padding: 40px;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 69, 0, 0.2);
+            box-shadow: 0 0 30px rgba(255, 69, 0, 0.1);
+        }
+        h1, h2, h3 {
+            font-family: 'Orbitron', sans-serif;
+            color: var(--accent-orange);
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+            background: linear-gradient(90deg, var(--accent-orange), var(--accent-gold));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle {
+            text-align: center;
+            font-size: 1.2rem;
+            color: var(--accent-gold);
+            margin-bottom: 40px;
+            font-weight: bold;
+        }
+        h2 {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 10px;
+            margin-top: 40px;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .meta {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #888;
+            margin-bottom: 40px;
+        }
+        a {
+            color: var(--accent-gold);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--text-light);
+            text-decoration: none;
+            border: 1px solid rgba(255,255,255,0.2);
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        .back-btn:hover {
+            background: var(--accent-orange);
+            border-color: var(--accent-orange);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-btn">← Back to Website</a>
+        
+        <h1>PyrovaCoin (PYR) Whitepaper</h1>
+        <div class="subtitle">Igniting the Future of Decentralized Finance</div>
+        
+        <div class="meta">
+            <strong>Version:</strong> 1.0 | <strong>Date:</strong> May 2026<br>
+            <strong>Website:</strong> <a href="https://jay534.github.io/pyrovacoin-website/">jay534.github.io/pyrovacoin-website</a>
+        </div>
+
+        <h2>Abstract</h2>
+        <p>The current financial system is heavily centralized, relying on trusted third parties to process electronic payments. While traditional blockchain networks introduced the concept of decentralized peer-to-peer cash, they often suffer from slow confirmation times or compromised security. PyrovaCoin (PYR) proposes a balanced solution: a fully decentralized cryptographic network built on the battle-tested SHA-256 algorithm, optimized with a 5-minute block time to provide faster global settlements without sacrificing the immutability and security of the original blockchain ethos. This paper outlines the technical specifications, tokenomics, and vision of the PyrovaCoin network.</p>
+
+        <h2>1. Introduction</h2>
+        <p>Decentralized finance requires a foundation of trustless, open-source technology. PyrovaCoin was created to empower individuals globally with a secure, transparent, and resilient medium of exchange. By removing the need for a central authority, PyrovaCoin ensures that no single entity can control, inflate, or censor the wealth of its users.</p>
+
+        <h2>2. Technical Specifications</h2>
+        <p>PyrovaCoin is built upon a modified Bitcoin Core codebase, inheriting its robust security features while tuning parameters for enhanced performance.</p>
+        <ul>
+            <li><strong>Ticker / Symbol:</strong> PYR</li>
+            <li><strong>Consensus Mechanism:</strong> Proof-of-Work (PoW)</li>
+            <li><strong>Hashing Algorithm:</strong> SHA-256</li>
+            <li><strong>Target Block Time:</strong> 5 Minutes (300 seconds)</li>
+            <li><strong>Maximum Supply:</strong> 21,000,000 PYR</li>
+            <li><strong>Difficulty Retargeting:</strong> Enhanced for network stability</li>
+        </ul>
+
+        <h3>2.1 Why 5-Minute Block Times?</h3>
+        <p>Traditional networks utilizing 10-minute block times often result in delayed transaction finality, which is impractical for everyday commerce. By halving the block time to 5 minutes, PyrovaCoin doubles the transaction throughput and significantly reduces confirmation waiting times while remaining immune to the high orphan-block rates seen in networks with extremely low block times (e.g., 1 minute).</p>
+
+        <h3>2.2 SHA-256 Security</h3>
+        <p>PyrovaCoin utilizes SHA-256, the most proven and secure cryptographic hashing algorithm in the blockchain industry. This allows existing ASIC mining infrastructure to easily point hash rate toward the PyrovaCoin network, ensuring rapid network security bootstrapping.</p>
+
+        <h2>3. Tokenomics & Distribution</h2>
+        <p>A cryptocurrency’s success relies heavily on fair distribution and sound economics. PyrovaCoin is strictly hard-capped at 21,000,000 coins to prevent arbitrary inflation.</p>
+        <p>The distribution is designed as follows:</p>
+        <ul>
+            <li><strong>Mining Rewards (80% / 16.8M PYR):</strong> Distributed exclusively to miners who secure the network via Proof-of-Work over the lifespan of the network.</li>
+            <li><strong>Development Fund (10% / 2.1M PYR):</strong> Allocated to ensure continuous development, exchange listings, marketing, and ecosystem growth.</li>
+            <li><strong>Early Mining / Bootstrapping (10% / 2.1M PYR):</strong> Allocated for initial network liquidity, early adopter incentives, and mainnet stabilization.</li>
+        </ul>
+
+        <h3>3.1 Halving Mechanism</h3>
+        <p>Similar to legacy networks, the block reward in PyrovaCoin is designed to halve periodically. This emission schedule enforces a deflationary economic model, rewarding early participants while ensuring long-term scarcity.</p>
+
+        <h2>4. Network Architecture & Nodes</h2>
+        <p>PyrovaCoin operates on a peer-to-peer network of independent nodes. Anyone, anywhere can download the PyrovaCoin Core client, synchronize the blockchain, and verify transactions independently.</p>
+        <ul>
+            <li><strong>Full Nodes:</strong> Validate all transactions and blocks against consensus rules.</li>
+            <li><strong>Mining Nodes:</strong> Compete to solve cryptographic puzzles to append new blocks to the chain.</li>
+            <li><strong>SPV (Simplified Payment Verification) Clients:</strong> Allow mobile and lightweight wallets to verify transactions without downloading the entire blockchain.</li>
+        </ul>
+
+        <h2>5. Roadmap</h2>
+        <p>PyrovaCoin’s development is driven by community needs and technological advancement.</p>
+        <ul>
+            <li><strong>Q1 2025:</strong> Mainnet Launch, Genesis Block Generation, Core Wallet Release. <em>(Completed)</em></li>
+            <li><strong>Q2 2025:</strong> Website Deployment, Open-Source GitHub Repository, Initial Community Building. <em>(Completed)</em></li>
+            <li><strong>Q3 2025:</strong> Launch of the PyrovaCoin Block Explorer and Initial Tier-3/Tier-4 Exchange Listings.</li>
+            <li><strong>Q4 2025:</strong> Official Mobile Wallet (Android/iOS) Release and Ecosystem Partnerships.</li>
+            <li><strong>Q1 2026:</strong> Reaching 10,000+ Active On-Chain Holders.</li>
+            <li><strong>Q2 2026:</strong> Tier-1 and Tier-2 Global Exchange Listings to maximize global liquidity.</li>
+        </ul>
+
+        <h2>6. Conclusion</h2>
+        <p>PyrovaCoin is not just a cryptocurrency; it is a commitment to the original vision of decentralized, peer-to-peer cash. By combining the unmatched security of SHA-256 with an optimized 5-minute block time and a strictly capped supply, PyrovaCoin provides a robust foundation for the future of global, borderless finance.</p>
+
+        <p style="margin-top: 50px; font-size: 0.8rem; color: #666; text-align: center; border-top: 1px solid #333; padding-top: 20px;">
+            <em>Disclaimer: This whitepaper is for informational purposes only and does not constitute financial advice or an offer to sell shares or securities.</em>
+        </p>
+    </div>
+</body>
+</html>
